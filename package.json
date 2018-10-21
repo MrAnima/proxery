@@ -1,0 +1,33 @@
+{
+  "name": "proxery",
+  "version": "1.0.0",
+  "description": "A proxy for easy DOM elements querying",
+  "main": "index.js",
+  "scripts": {
+    "prepublish": "browserify index.js -g uglifyify -s proxery -o dist/proxery.min.js",
+    "test": "mocha"
+  },
+  "keywords": [
+    "browser",
+    "dom"
+  ],
+  "author": "MrAnima",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^10.12.0",
+    "browserify": "^16.2.3",
+    "chai": "^4.2.0",
+    "jsdom": "^12.2.0",
+    "jsdom-global": "^3.0.2",
+    "mocha": "^5.2.0",
+    "uglifyify": "^5.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MrAnima/proxery"
+  },
+  "bugs": "https://github.com/MrAnima/proxery/issues",
+  "files": [
+    "index.js"
+  ]
+}
