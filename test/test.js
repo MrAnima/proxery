@@ -22,8 +22,8 @@ describe("proxery", function() {
             let buttons = proxery.class.btn;
             expect(buttons).to.have.length(3);
         });
-        it('should return 1 element with innerHTML == "Button3"', function() {
-            let primaryButtons = proxery.class['btn-primary'];
+        it('should handle camelCased strings as param-cased ones"', function() {
+            let primaryButtons = proxery.class.btnPrimary;
             expect(primaryButtons[0]).to.have.property('innerHTML', "Button3");
         });
     });

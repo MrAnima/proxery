@@ -30,5 +30,8 @@
   "files": [
     "index.js",
     "/dist"
-  ]
+  ],
+  "dependencies": {
+    "param-case": "^2.1.1"
+  }
 }
