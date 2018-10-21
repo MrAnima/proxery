@@ -1,6 +1,6 @@
 {
   "name": "proxery",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A proxy for easy DOM elements querying",
   "main": "index.js",
   "scripts": {
@@ -28,6 +28,7 @@
   },
   "bugs": "https://github.com/MrAnima/proxery/issues",
   "files": [
-    "index.js"
+    "index.js",
+    "/dist"
   ]
 }
