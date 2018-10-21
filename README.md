@@ -61,6 +61,11 @@ let [ firstEmailElement ] = proxery.name.email;
 proxery.tag.form.forEach(form => form.submit());
 ```
 
+If the query containes dashes (e.g. `<a class="btn btn-primary">`), you can use camelCase to refer to the element:
+```javascript
+let [ a ] = proxery.class.btnPrimary;
+```
+
 ### Browser
 This library is obviously made for the browser. You can bundle it using [browserify](http://browserify.org/), _AMD_ or simply use it by including `dist/proxery.min.js` in a webpage, which will expose a global variable. You may also use the [UNPKG CDN](https://unpkg.com/proxery/dist/proxery.min.js)
 

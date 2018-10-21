@@ -1,3 +1,5 @@
+const paramCase = require('param-case');
+
 const DEFAULTS = {
     cache: false,
     document: window.document,
@@ -23,6 +25,9 @@ module.exports = function(options = {}) {
             get(obj, key) {
                 // Don't handle symbols / number keys
                 if (typeof key !== 'string') return null;
+
+                // Transform key using param-case
+                key = paramCase(key);
 
                 // Try to retrieve from cache
                 if (cache && key in obj) return obj[key];
