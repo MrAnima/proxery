@@ -1,6 +1,7 @@
 # **proxery**
 
 [![GitHub license](https://img.shields.io/github/license/MrAnima/proxery.svg)](https://github.com/MrAnima/proxery)
+![David](https://img.shields.io/david/MrAnima/proxery.svg)
 
 > Proxery is a very simple library for the browser that allows you to very easily get elements from the DOM using proxies. Given the following HTML:
 > ```html
@@ -18,7 +19,7 @@
 ## Setup
 
 ### Download
-`npm install MrAnima/proxery`
+`npm install proxery`
 
 ### Import / Require
 ```javascript
@@ -61,7 +62,7 @@ proxery.tag.form.forEach(form => form.submit());
 ```
 
 ### Browser
-This library is obviously made for the browser. You can bundle it using [browserify](http://browserify.org/), _AMD_ or simply use it by including `dist/proxery.min.js` in a webpage, which will expose a global variable. You may also use the [UNPKG CDN](https://unpkg.com/proxery@1.0.0/dist/proxery.min.js)
+This library is obviously made for the browser. You can bundle it using [browserify](http://browserify.org/), _AMD_ or simply use it by including `dist/proxery.min.js` in a webpage, which will expose a global variable. You may also use the [UNPKG CDN](https://unpkg.com/proxery/dist/proxery.min.js)
 
 ## Tests
 
