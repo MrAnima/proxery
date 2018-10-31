@@ -1,7 +1,7 @@
-# **proxery**
+# [**proxery**](https://www.npmjs.com/package/proxery)
 
 [![GitHub license](https://img.shields.io/github/license/MrAnima/proxery.svg)](https://github.com/MrAnima/proxery)
-![David](https://img.shields.io/david/MrAnima/proxery.svg)
+[![David](https://img.shields.io/david/MrAnima/proxery.svg)](https://www.npmjs.com/package/proxery)
 
 > Proxery is a very simple library for the browser that allows you to very easily get elements from the DOM using proxies. Given the following HTML:
 > ```html
