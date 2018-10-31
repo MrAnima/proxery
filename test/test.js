@@ -5,6 +5,24 @@ const util = require('util');
 
 const HTML = fs.readFileSync(__dirname + '/sample.html', {encoding: 'utf8'});
 
+describe("param-case", function() {
+
+    const paramCase = require('../param-case');
+
+    [
+        ['helloWorld', 'hello-world'],
+        ['HelloWorld', 'hello-world'],
+        ['loremIpsumDolorSitAmet', 'lorem-ipsum-dolor-sit-amet']
+    ]
+    .forEach(([test, expected]) => {
+        it(`should return ${expected}`, function() {
+            expect(paramCase(test)).to.equal(expected);
+        });
+    });
+    
+
+});
+
 describe("proxery", function() {
 
     jsdom(HTML);

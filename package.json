@@ -1,6 +1,6 @@
 {
   "name": "proxery",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A proxy for easy DOM elements querying",
   "main": "index.js",
   "scripts": {
