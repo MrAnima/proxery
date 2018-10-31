@@ -53,3 +53,5 @@ module.exports = function(options = {}) {
     }
 
 }
+
+module.exports.default = module.exports;

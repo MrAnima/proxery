@@ -33,6 +33,16 @@ const proxery = require('proxery')({
 });
 ```
 
+You can also use the ES6/TypeScript syntax:
+```typescript
+// With explicit options
+import createProxery from 'proxery';
+const proxery = createProxery({ /* Options */ });
+
+// With default options (shorter thanks to a little helper file)
+import proxery from 'proxery/default';
+```
+
 ## Usage
 
 Once you have your **proxery** object, you can use 4 different proxies to do various queries:
