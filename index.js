@@ -2,7 +2,7 @@ const paramCase = require('param-case');
 
 const DEFAULTS = {
     cache: false,
-    document: window.document,
+    get document () { return window.document },
 }
 
 /**
